@@ -1,0 +1,34 @@
+<meta charset="UTF-8">
+
+<h3>¿Alcohol o Gasolina?</h3>
+<br>
+<br>
+Si un carro tiene un tanque de 40 litros. Usando gasolina y consumiendo todo el tanque se hace un camino de 480 kilómetros. 
+<br>
+<br>
+<br>
+
+
+<script>
+
+var tanque = 40;
+var recorrido = 480;
+
+
+
+document.write("¿Cuál es el consumo de gasolina?");
+document.write("<br>");
+document.write("El total de consumo de gasolina es : " + (recorrido/tanque) + " Lt ");
+
+
+recorrido = 300;
+
+document.write("<br>");
+document.write("<br>");
+document.write("<br>");
+document.write("¿Cuál es el consumo de alcohol/km?");
+document.write("<br>");
+document.write("El total de consumo de alcohol es : " + (recorrido/tanque) + " Lt ");
+
+
+</script>
